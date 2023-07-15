@@ -3,7 +3,6 @@
  * main - p prints all possible different combinations of these digits
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int ones = '0';
@@ -31,6 +30,5 @@ int main(void)
 			}
 		}
 	}
-
 	return (0);
 }
