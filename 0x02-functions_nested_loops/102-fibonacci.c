@@ -21,12 +21,11 @@ int main(void)
 	else
 	{
 	k += j;
-	j =k -j;
+	j = k - j;
 	printf(", %ld", k);
 	}
 	++i;
 	}
 	printf("\n");
 	return (0);
-
 }	
