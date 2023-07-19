@@ -18,6 +18,6 @@ int main(void)
 	}
 	i++;
 	}
-	pritf("%d\n" z);
+	printf("%d\n" z);
 	return (0);
 }
