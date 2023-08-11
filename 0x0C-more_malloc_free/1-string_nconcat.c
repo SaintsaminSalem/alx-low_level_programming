@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		k++;
 
 	if (n >= k)
-		l = i + n;
+		l = i + k;
 	else
 		l = i + n;
 
@@ -40,7 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (j < l)
 	{
 		if (j <= i)
-			str[j] = s1[i];
+			str[j] = s1[j];
 
 		if (j >= i)
 		{
