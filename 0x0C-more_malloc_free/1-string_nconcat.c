@@ -24,7 +24,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s1[i])
 		i++;
 
-	while (s2[i])
+	while (s2[k])
 		k++;
 
 	if (n >= k)
@@ -40,7 +40,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (j < l)
 	{
 		if (j <= i)
-			str[j] = s1[j];
+			str[j] = s1[i];
 
 		if (j >= i)
 		{
