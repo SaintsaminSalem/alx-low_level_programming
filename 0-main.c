@@ -1,4 +1,5 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include "function_pointers.h"
 
 /**
@@ -37,6 +38,9 @@ void print_name_uppercase(char *name)
         i++;
     }
 }
+=======
+#include "main.h"
+>>>>>>> eaf11dd76d617613e8c9d682568fbc35f4d97966
 
 /**
  * main - check the code
@@ -45,8 +49,23 @@ void print_name_uppercase(char *name)
  */
 int main(void)
 {
+<<<<<<< HEAD
     print_name("Bob", print_name_as_is);
     print_name("Bob Dylan", print_name_uppercase);
     printf("\n");
+=======
+    unsigned int n;
+
+    n = binary_to_uint("1");
+    printf("%u\n", n);
+    n = binary_to_uint("101");
+    printf("%u\n", n);
+    n = binary_to_uint("1e01");
+    printf("%u\n", n);
+    n = binary_to_uint("1100010");
+    printf("%u\n", n);
+    n = binary_to_uint("0000000000000000000110010010");
+    printf("%u\n", n);
+>>>>>>> eaf11dd76d617613e8c9d682568fbc35f4d97966
     return (0);
 }
